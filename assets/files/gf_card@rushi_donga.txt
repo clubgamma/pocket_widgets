@@ -1,0 +1,28 @@
+--> getwidget: ^2.0.4
+
+import 'package:getwidget/getwidget.dart';
+
+GFCard(
+ boxFit: BoxFit.cover,
+ image: Image.asset('your asset image'),
+ title: GFListTile(
+   avatar: GFAvatar(
+     backgroundImage: AssetImage('your asset image'),
+   ),
+   title: Text('Title'),
+   subTitle: Text('Sub Title'),
+),
+content: Text("Some quick example text to build on the card"),
+buttonBar: GFButtonBar(
+ children: <Widget>[
+   GFButton(
+    onPressed: () {},
+    text: 'OK',
+   ),
+   GFButton(
+    onPressed: () {},
+    text: 'Cancel',
+   ),
+ ],
+ ),
+),

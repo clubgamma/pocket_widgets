@@ -1,11 +1,11 @@
 <h1 align="center">Pocket Widgets</h1>
 <div align="center">  
-<a href="https://github.com/clubgamma/RiddlesWorld/stargazers"><img src="https://img.shields.io/github/stars/clubgamma/RiddlesWorld?style=flat"/></a>
-<a href="https://github.com/clubgamma/RiddlesWorld/network/members"><img src="https://img.shields.io/github/forks/clubgamma/RiddlesWorld?style=flat"/></a>
-<a href="https://github.com/clubgamma/RiddlesWorld/pulls"><img src="https://img.shields.io/github/issues-pr/clubgamma/RiddlesWorld?style=flat?color=yellow"/></a>
-<a href="https://github.com/clubgamma/RiddlesWorld/issues"><img src="https://img.shields.io/github/issues/clubgamma/RiddlesWorld?style=flat"/></a>
-<a href="https://github.com/clubgamma/RiddlesWorld/graphs/contributors"><img src="https://img.shields.io/github/contributors/clubgamma/RiddlesWorld?color=orange"/></a>
-<a href="https://github.com/clubgamma/RiddlesWorld/blob/master/LICENSE"><img src="https://img.shields.io/github/license/clubgamma/RiddlesWorld?color=1abc9c"/></a>
+<a href="https://github.com/clubgamma/pocket_widgets/stargazers"><img src="https://img.shields.io/github/stars/clubgamma/RiddlesWorld?style=flat"/></a>
+<a href="https://github.com/clubgamma/pocket_widgets/network/members"><img src="https://img.shields.io/github/forks/clubgamma/RiddlesWorld?style=flat"/></a>
+<a href="https://github.com/clubgamma/pocket_widgets/pulls"><img src="https://img.shields.io/github/issues-pr/clubgamma/RiddlesWorld?style=flat?color=yellow"/></a>
+<a href="https://github.com/clubgamma/pocket_widgets/issues"><img src="https://img.shields.io/github/issues/clubgamma/RiddlesWorld?style=flat"/></a>
+<a href="https://github.com/clubgamma/pocket_widgets/graphs/contributors"><img src="https://img.shields.io/github/contributors/clubgamma/RiddlesWorld?color=orange"/></a>
+<a href="https://github.com/clubgamma/pocket_widgets/blob/master/LICENSE"><img src="https://img.shields.io/github/license/clubgamma/RiddlesWorld?color=1abc9c"/></a>
 <br>
   
 [![](https://img.shields.io/badge/Club_Gamma-Code_of_conduct-%23FF0000.svg?&style=flat&logoColor=white&color=red)](https://clubgamma.github.io/code-of-conduct/)

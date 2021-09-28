@@ -8,7 +8,9 @@ So let's come together and contribute something awesome to the Flutter community
    Read the [Code of Conduct](https://github.com/clubgamma/code-of-conduct) before starting contributing.
 ### 2. Fork the repo
    First of all fork the repo to your own GitHub account by clicking the **Fork** button on top-right corner. Still could not find 🙄,check the below image
-   ![fork](https://user-images.githubusercontent.com/57007680/94579238-360b6b00-0296-11eb-8dfd-c8ac8f10aa26.png)
+   
+   ![fork](https://user-images.githubusercontent.com/65907580/135131583-645b2fd4-e07d-4c57-8804-7e0c7fff39bd.PNG)
+   
    After a sucessful fork, you'll see a copy of this repo in your own account.
 
 ### 3. Clone the repo    
@@ -19,7 +21,7 @@ So let's come together and contribute something awesome to the Flutter community
     
    You can get the repo link from the Download section in the **repo copied in your own account**. Still having trouble🙄,see the below image
     
-   ![clone](https://user-images.githubusercontent.com/57007680/94578970-efb60c00-0295-11eb-93cc-301e605927bd.png)
+![clone](https://user-images.githubusercontent.com/65907580/135131609-fe0b3331-95c0-4908-b472-fe9119fa488c.PNG)
    
  ### 4. Set up remote repo
   - When you cloned your fork, that should have automatically set your fork as the "origin" remote. Use git remote -v to show your current remotes. You should see the URL of your fork (which you copied in step 3) next to the word "origin". 
@@ -29,7 +31,7 @@ So let's come together and contribute something awesome to the Flutter community
       
   - Now you have to setup **upstream**. For that write the below git command
       
-    > git remote add upstream https://github.com/clubgamma/RiddlesWorld
+    > git remote add upstream https://github.com/clubgamma/pocket_widgets
         
   - Now pull the latest changes from original repo to your local changes by firing thee below command
         

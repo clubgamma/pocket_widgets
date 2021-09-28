@@ -42,8 +42,6 @@ For help getting started with Flutter, view
 
 **To know more about us, visit [official website](https://clubgamma.github.io/) of Club Gamma.**
 
-**To know more about how Club Gamma is going to celebrate Hacktoberfest, click [here](https://clubgamma.github.io/hacktoberfest/)**
-
 <br>
 <div align="center">  
 <i>If you want to add any feature or if you found a bug, feel free to open an issue</i><br><br>

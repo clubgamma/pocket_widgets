@@ -22,22 +22,17 @@ So let's come together and contribute something awesome to the Flutter community
    You can get the repo link from the Download section in the **repo copied in your own account**. Still having trouble🙄,see the below image
     
 ![clone](https://user-images.githubusercontent.com/65907580/135131609-fe0b3331-95c0-4908-b472-fe9119fa488c.PNG)
+
+ ### 4. Create a branch Specific to the Issue
+    > git checkout -b branch-name 
    
- ### 4. Set up remote repo
+ ### 5. Set up remote repo
   - When you cloned your fork, that should have automatically set your fork as the "origin" remote. Use git remote -v to show your current remotes. You should see the URL of your fork (which you copied in step 3) next to the word "origin". 
       If you don't see an "origin" remote, you can add it using below git command
     
     > git remote add origin <REPO_LINK_FROM_YOUR_ACCOUNT>
-      
-  - Now you have to setup **upstream**. For that write the below git command
-      
-    > git remote add upstream https://github.com/clubgamma/pocket_widgets
-        
-  - Now pull the latest changes from original repo to your local changes by firing thee below command
-        
-    > git pull upstream master
   
- ### 5. Enough BoilerPlates, It's Flutter time now!!
+ ### 6. Enough BoilerPlates, It's Flutter time now!!
   - Open cloned Project in your favourite IDE. After that go to the lib->Contributions. In Contributions create a Dart File named **(your_user_name)**. Great, you just created your playground, Now it's time for you to show your Creativity by designing and developing awesome custom Flutter Widgets.
       
      ![contribute_folder](https://user-images.githubusercontent.com/65907580/134782730-af8e999d-9018-4b5a-9f28-1f8b551bb553.PNG)
@@ -71,23 +66,24 @@ So let's come together and contribute something awesome to the Flutter community
    Boom, You have successfully added one Riddle🔥✨
    
    
- ### 6. Now it's time to save the work
+ ### 7. Now it's time to save the work
       
   - Stage the changes you have made by firing the below command
     > git add -A
   - Commit the changes 
     > git commit -m "Description of changes/your work"
   - Push the changes to your forked repo
-    > git push origin master
+    > git push origin branch-name
   
-### 7. Let's finish this
+### 8. Let's finish this
   
   - Go to your forked repo on GitHub website and refresh the page, you'll see something like the below image
   ![pr1](https://user-images.githubusercontent.com/57007680/94609340-3fa7c980-02bc-11eb-90dd-269a433b00e0.PNG)
         
   - Click on pull-request and you will be redirected to another page where you will see something like below image
-  ![pr2](https://user-images.githubusercontent.com/57007680/94609343-420a2380-02bc-11eb-83f1-c6157417c50d.PNG)
-        
+  
+    ![compare_pull](https://user-images.githubusercontent.com/65907580/135204117-0c6caf75-f65f-4a48-8f97-3d05c7091bf0.PNG)
+
   - After that you have to write your GitHub username as the title of your pull-request and describe your work if you want and that's it!!
     Create a pull-request by clicking the button
         
@@ -99,7 +95,7 @@ So let's come together and contribute something awesome to the Flutter community
         
     - [X] I have followed all the steps of submission properly.
         
-    ![pr3](https://user-images.githubusercontent.com/58077762/93779010-1e076c00-fc44-11ea-86f0-7a6d74380624.png)
+        ![pull_request](https://user-images.githubusercontent.com/65907580/135204106-7fc9c2cf-89df-45f7-a49e-823ac94eb12a.PNG)
 
 **Woohoo!! Congratulations on making your open source contribution🎉🎉**                                         
 **Wait for some time to get your PR merged by our team**

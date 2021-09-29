@@ -16,7 +16,7 @@
 
 An Application to showcase your flutter UI Designing skills 🤩. 
 
-The repo contains awesome creations made using an awesome UI framework **Flutter** 💙. All the contributions are made by some enthusiastic and innovative Flutter Devs.
+It is basically an Application, which allows you to show your creativity in Flutter, by creating your own custom Flutter Widgets by using few of the Widgets created by the Flutter Team
 
 Read the [CONTRIBUTING.md](https://github.com/clubgamma/RiddlesWorld/blob/master/CONTRIBUTING.md) to start your open source contribution.
 

@@ -5,6 +5,7 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 import 'package:widgets_book/Constants/color.dart';
 import 'package:widgets_book/Contributions/rushi_donga.dart';
+import 'package:widgets_book/Contributions/sidB67.dart';
 
 import '../Contributions/club_gamma.dart';
 import '../Widget/home_card.dart';
@@ -46,7 +47,16 @@ class _HomePageState extends State<HomePage> {
           widgetName: "List Card",
           contributorName: "club_gamma",
         ),
-      )
+      ),
+       GestureDetector(
+        onTap: (){
+          Navigator.push(context, MaterialPageRoute(builder: (context) => const sidB67()));
+        },
+        child: HomeCard(
+          widgetName: "Rate Widget",
+          contributorName: "sidB67",
+        ),
+      ),
 
     ];
 

@@ -18,7 +18,7 @@ An Application to showcase your flutter UI Designing skills 🤩.
 
 It is basically an Application, which allows you to show your creativity in Flutter, by allowing you to create your own custom Flutter Widgets by using few of the Widgets created by the Flutter Team
 
-Read the [CONTRIBUTING.md](https://github.com/clubgamma/pocket_widgets/blob/master/CONTRIBUTING.md) to start your open source contribution.
+Read the [CONTRIBUTING.md](https://github.com/clubgamma/pocket_widgets/blob/main/CONTRIBUTING.md) to start your open source contribution.
 
 ## Getting Started
 

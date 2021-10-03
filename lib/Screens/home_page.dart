@@ -8,7 +8,7 @@ import 'package:widgets_book/Contributions/rushi_donga.dart';
 import 'package:widgets_book/Contributions/sidB67.dart';
 import 'package:widgets_book/Contributions/Krunal3909_custom_button.dart';
 import 'package:widgets_book/Contributions/rounded_textfield_krunal3909.dart';
-import 'package:widgets_book/Contributions/popup_krunal3909.dart';
+import 'package:widgets_book/Contributions/krunal3909_popup.dart';
 
 import '../Contributions/club_gamma.dart';
 import '../Widget/home_card.dart';

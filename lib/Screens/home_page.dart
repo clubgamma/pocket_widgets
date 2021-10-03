@@ -6,6 +6,7 @@ import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 import 'package:widgets_book/Constants/color.dart';
 import 'package:widgets_book/Contributions/rushi_donga.dart';
 import 'package:widgets_book/Contributions/sidB67.dart';
+import 'package:widgets_book/Contributions/Krunal3909_custom_button.dart';
 
 import '../Contributions/club_gamma.dart';
 import '../Widget/home_card.dart';
@@ -55,6 +56,16 @@ class _HomePageState extends State<HomePage> {
         child: HomeCard(
           widgetName: "Rate Widget",
           contributorName: "sidB67",
+        ),
+      ),
+      
+       GestureDetector(
+        onTap: (){
+          Navigator.push(context, MaterialPageRoute(builder: (context) => CustomButton(widgetName: "Custom Button")));
+        },
+        child: HomeCard(
+          widgetName: "Custom Button",
+          contributorName: "Krunal3909",
         ),
       ),
 

@@ -79,7 +79,7 @@ class _HomePageState extends State<HomePage> {
           widgetName: "RoundedTextField",
           contributorName: "krunal_3909",
         ),
-      )
+      ),
       
       GestureDetector(
         onTap: (){

@@ -1,0 +1,48 @@
+_forgottenPassword(){
+    Alert(
+        context: context,
+        title: "Forgotten Password",
+        content: Column(
+          children: <Widget>[
+            Text(
+              "We will send You the Password Reset Link on the entered E-mail",
+              style: TextStyle(
+                  color: Colors.grey[800],
+                  fontWeight: FontWeight.w500,
+                  letterSpacing: 0.5,
+                  fontSize: 13.5
+              ),
+              textAlign: TextAlign.center,
+            ),
+            TextField(
+              onChanged: (value){},
+              keyboardType: TextInputType.emailAddress,
+              decoration: InputDecoration(
+                  icon: const Icon(
+                    Icons.email,
+                    color: Color(0XFFA4AAEE),
+                  ),
+                  hintText: "E-mail",
+                  hintStyle: TextStyle(
+                      color: Colors.grey[500]
+                  ),
+                  enabledBorder: const OutlineInputBorder(
+                    borderSide: BorderSide.none,
+                  ),
+                  focusedBorder: const OutlineInputBorder(
+                      borderSide: BorderSide.none
+                  )
+              ),
+            ),
+          ],
+        ),
+        buttons: [
+          DialogButton(
+            onPressed: (){},
+            child: const Text(
+              "SEND",
+              style: TextStyle(color: Colors.white, fontSize: 20),
+            ),
+          )
+        ]).show();
+  }

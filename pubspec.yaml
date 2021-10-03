@@ -37,6 +37,7 @@ dependencies:
   getwidget: ^2.0.4
   animated_widgets:
   flutter_staggered_animations:
+  rflutter_alert:
 
 dev_dependencies:
   flutter_test:

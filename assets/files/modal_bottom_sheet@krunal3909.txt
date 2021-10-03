@@ -1,0 +1,78 @@
+_showBottomSheet(context){
+    showModalBottomSheet(
+        context: context,
+        builder: (BuildContext context){
+          return Container(
+            height: 200.0,
+            decoration: const BoxDecoration(
+              color: Colors.deepPurpleAccent,
+            ),
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 10.0),
+              child: Column(
+                children: [
+
+
+                  GestureDetector(
+                    onTap: (){
+
+                    },
+                    child: const ListTile(
+                      leading: Icon(
+                        CupertinoIcons.location_fill,
+                        color: Colors.white,
+                      ),
+                      title: Text(
+                        "Send",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20.0
+                        ),
+                      ),
+                    ),
+                  ),
+
+                  GestureDetector(
+                    onTap: (){
+
+                    },
+                    child: const ListTile(
+                      leading: Icon(
+                        CupertinoIcons.arrow_down_doc,
+                        color: Colors.white,
+                      ),
+                      title: Text(
+                        "Copy",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20.0
+                        ),
+                      ),
+                    ),
+                  ),
+
+                  GestureDetector(
+                    onTap: (){
+
+                    },
+                    child: const ListTile(
+                      leading: Icon(
+                        CupertinoIcons.delete,
+                        color: Colors.white,
+                      ),
+                      title: Text(
+                        "Delete",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20.0
+                        ),
+                      ),
+                    ),
+                  )
+                ],
+              ),
+            ),
+          );
+        }
+    );
+  }

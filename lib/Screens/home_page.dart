@@ -7,6 +7,7 @@ import 'package:widgets_book/Constants/color.dart';
 import 'package:widgets_book/Contributions/rushi_donga.dart';
 import 'package:widgets_book/Contributions/sidB67.dart';
 import 'package:widgets_book/Contributions/Krunal3909_custom_button.dart';
+import 'package:widgets_book/Contributions/rounded_textfield_krunal3909.dart';
 
 import '../Contributions/club_gamma.dart';
 import '../Widget/home_card.dart';
@@ -68,6 +69,16 @@ class _HomePageState extends State<HomePage> {
           contributorName: "Krunal3909",
         ),
       ),
+      
+      GestureDetector(
+        onTap: (){
+          Navigator.push(context, MaterialPageRoute(builder: (context) => RoundedTextField(contributorName: "krunal3909", widgetName: "RoundedTextField")));
+        },
+        child: HomeCard(
+          widgetName: "RoundedTextField",
+          contributorName: "krunal_3909",
+        ),
+      )
 
     ];
 

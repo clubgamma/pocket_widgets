@@ -1,0 +1,33 @@
+Container(
+            margin: const EdgeInsets.symmetric(horizontal: 20.0),
+            padding: const EdgeInsets.symmetric(horizontal: 10.0),
+            decoration: BoxDecoration(
+                borderRadius: BorderRadius.all(const Radius.circular(50.0)),
+                color: Colors.grey[900]?.withOpacity(0.7)
+            ),
+            child: TextField(
+                obscureText: true,
+                onChanged: (value){},
+                style: const TextStyle(
+                    color: Colors.white
+                ),
+                decoration: InputDecoration(
+                    prefixIcon:const Icon(
+                      Icons.lock_outline,
+                      color: Colors.white,
+                      size: 27.0,
+                    ),
+                    enabledBorder: const OutlineInputBorder(
+                        borderSide: BorderSide.none
+                    ),
+                    focusedBorder: const OutlineInputBorder(
+                        borderSide: BorderSide.none
+                    ),
+                    hintText: "Password",
+                    hintStyle: TextStyle(
+                        color: Colors.white.withOpacity(0.7),
+                        fontSize: 17.0
+                    )
+                )
+            ),
+          )

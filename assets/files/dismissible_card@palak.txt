@@ -1,0 +1,30 @@
+        Container(
+            child: ListView.builder(
+                shrinkWrap: true,
+                physics: ScrollPhysics(),
+                itemCount: cards.length,
+                itemBuilder: (context, index) {
+                  return Dismissible(
+                    key: ValueKey(cards[index]),
+                    child: cards[index],
+                    background: Container(
+                        height: 55,
+                        color: Colors.red[300],
+                        child: Center(
+                            child: Icon(
+                          Icons.delete,
+                          color: Colors.white,
+                          size: 15,
+                        ))),
+                    onDismissed: (direction) {
+                      if (direction == DismissDirection.startToEnd) {
+                        if (cards.contains(cards.removeAt(index))) {
+                          setState(() {
+                            cards.remove(cards.removeAt(index));
+                          });
+                        }
+                      }
+                    },
+                  );
+                }),
+          ),

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:widgets_book/Constants/color.dart';
-import 'package:widgets_book/Screens/home_page.dart';
 import 'package:widgets_book/Screens/splash_screen.dart';
 
 void main() {

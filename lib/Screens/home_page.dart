@@ -4,6 +4,7 @@ import 'package:flutter/painting.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 import 'package:widgets_book/Constants/color.dart';
+import 'package:widgets_book/Contributions/dismissibleCard.dart';
 import 'package:widgets_book/Contributions/modal_bottom_sheet_krunal3909.dart';
 import 'package:widgets_book/Contributions/rushi_donga.dart';
 import 'package:widgets_book/Contributions/sidB67.dart';
@@ -121,7 +122,6 @@ class _HomePageState extends State<HomePage> {
           contributorName: "warpaltarpers",
         ),
       ),
-
       GestureDetector(
         onTap: (){
           Navigator.push(context, MaterialPageRoute(builder: (context) => ModalBottomSheet(contributorName: "krunal3909", widgetName: "Bottom Sheet")));
@@ -130,7 +130,21 @@ class _HomePageState extends State<HomePage> {
           widgetName: "Modal Bottom Sheet",
           contributorName: "krunal_3909",
         ),
-      )
+      ),
+         GestureDetector(
+        onTap: () {
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => DismissibleCard(
+                      contributorName: "Palak-Bera",
+                      widgetName: "Dismissible Card")));
+        },
+        child: HomeCard(
+          widgetName: "Dismissible Card",
+          contributorName: "Palak-Bera",
+        ),
+      ),
     ];
 
     for (int i = 0; i < cards.length; i++) {

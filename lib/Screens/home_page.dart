@@ -5,6 +5,7 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 import 'package:widgets_book/Constants/color.dart';
 import 'package:widgets_book/Contributions/dismissibleCard.dart';
+import 'package:widgets_book/Contributions/drawer_mayank905473.dart';
 import 'package:widgets_book/Contributions/modal_bottom_sheet_krunal3909.dart';
 import 'package:widgets_book/Contributions/rushi_donga.dart';
 import 'package:widgets_book/Contributions/sidB67.dart';
@@ -143,6 +144,16 @@ class _HomePageState extends State<HomePage> {
         child: HomeCard(
           widgetName: "Dismissible Card",
           contributorName: "Palak-Bera",
+        ),
+      ),
+      
+      GestureDetector(
+        onTap: (){
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Drawermayank905473(contributorName: "mayank905473", widgetName: "Drawer")));
+        },
+        child: HomeCard(
+          widgetName: "Drawer ",
+          contributorName: "mayank905473",
         ),
       ),
     ];

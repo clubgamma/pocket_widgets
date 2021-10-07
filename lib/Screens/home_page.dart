@@ -7,6 +7,7 @@ import 'package:widgets_book/Constants/color.dart';
 import 'package:widgets_book/Contributions/dismissibleCard.dart';
 import 'package:widgets_book/Contributions/drawer_mayank905473.dart';
 import 'package:widgets_book/Contributions/modal_bottom_sheet_krunal3909.dart';
+import 'package:widgets_book/Contributions/rgbPicker_hurshh.dart';
 import 'package:widgets_book/Contributions/rushi_donga.dart';
 import 'package:widgets_book/Contributions/sidB67.dart';
 import 'package:widgets_book/Contributions/Krunal3909_custom_button.dart';
@@ -154,6 +155,15 @@ class _HomePageState extends State<HomePage> {
         child: HomeCard(
           widgetName: "Drawer ",
           contributorName: "mayank905473",
+        ),
+      ),
+      GestureDetector(
+        onTap: (){
+          Navigator.push(context, MaterialPageRoute(builder: (context) => rgb_picker(contributorName: "hurshh", widgetName: "RGB Picker")));
+        },
+        child: HomeCard(
+          widgetName: "RGB Picker",
+          contributorName: "hurshh",
         ),
       ),
     ];

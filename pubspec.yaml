@@ -38,6 +38,7 @@ dependencies:
   animated_widgets:
   flutter_staggered_animations:
   rflutter_alert:
+  flip_card:
 
 dev_dependencies:
   flutter_test:

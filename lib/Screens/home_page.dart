@@ -4,6 +4,7 @@ import 'package:flutter/painting.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 import 'package:widgets_book/Constants/color.dart';
+import 'package:widgets_book/Contributions/FlipCard.dart';
 import 'package:widgets_book/Contributions/dismissibleCard.dart';
 import 'package:widgets_book/Contributions/drawer_mayank905473.dart';
 import 'package:widgets_book/Contributions/modal_bottom_sheet_krunal3909.dart';
@@ -166,6 +167,20 @@ class _HomePageState extends State<HomePage> {
           contributorName: "hurshh",
         ),
       ),
+       GestureDetector(
+        onTap: () {
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => FlipCardPage(
+                      contributorName: "Palak-Bera", widgetName: "Flip Card")));
+        },
+        child: HomeCard(
+          widgetName: "Flip Card",
+          contributorName: "Palak-Bera",
+        ),
+      ),
+    
     ];
 
     for (int i = 0; i < cards.length; i++) {

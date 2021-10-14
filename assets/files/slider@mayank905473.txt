@@ -1,0 +1,75 @@
+CarouselSlider(
+            items: [
+              //1st Image of Slider
+              Container(
+                margin: EdgeInsets.all(1.0),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(8.0),
+                  image: DecorationImage(
+                    image: AssetImage('assets/images/slider1.jpg'),
+                    fit: BoxFit.contain,
+                  ),
+                ),
+              ),
+            
+              //2nd Image of Slider
+              Container(
+                margin: EdgeInsets.all(1.0),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(8.0),
+                  image: DecorationImage(
+                    image: AssetImage('assets/images/slider2.jpg'),
+                    fit: BoxFit.contain,
+                  ),
+                ),
+              ),
+            
+              //3rd Image of Slider
+              Container(
+                margin: EdgeInsets.all(1.0),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(8.0),
+                  image: DecorationImage(
+                    image: AssetImage('assets/images/slider3.jpg'),
+                    fit: BoxFit.contain,
+                  ),
+                ),
+              ),
+            
+              //4th image
+              Container(
+                margin: EdgeInsets.all(1.0),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(8.0),
+                  image: DecorationImage(
+                    image: AssetImage('assets/images/slider4.jpg'),
+                    fit: BoxFit.contain,
+                  ),
+                ),
+              ),
+            
+              //5th image
+              Container(
+                margin: EdgeInsets.all(1.0),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(8.0),
+                  image: DecorationImage(
+                    image: AssetImage('assets/images/slider5.jpg'),
+                    fit: BoxFit.contain,
+                  ),
+                ),
+              ),
+            ],
+            
+            //Slider Container properties
+            options: CarouselOptions(
+              height: MediaQuery.of(context).size.height * .35,
+              enlargeCenterPage: true,
+              autoPlay: true,
+              aspectRatio: 16 / 9,
+              autoPlayCurve: Curves.fastOutSlowIn,
+              enableInfiniteScroll: true,
+              autoPlayAnimationDuration: Duration(milliseconds: 800),
+              viewportFraction: 0.9,
+            ),
+          ),

@@ -14,6 +14,7 @@ import 'package:widgets_book/Contributions/sidB67.dart';
 import 'package:widgets_book/Contributions/Krunal3909_custom_button.dart';
 import 'package:widgets_book/Contributions/rounded_textfield_krunal3909.dart';
 import 'package:widgets_book/Contributions/krunal3909_popup.dart';
+import 'package:widgets_book/Contributions/slider_mayank905473.dart';
 import 'package:widgets_book/Contributions/warpaltarpers.dart';
 
 import '../Contributions/club_gamma.dart';
@@ -167,6 +168,7 @@ class _HomePageState extends State<HomePage> {
           contributorName: "hurshh",
         ),
       ),
+
        GestureDetector(
         onTap: () {
           Navigator.push(
@@ -178,6 +180,20 @@ class _HomePageState extends State<HomePage> {
         child: HomeCard(
           widgetName: "Flip Card",
           contributorName: "Palak-Bera",
+        ),
+      ),
+
+       GestureDetector(
+        onTap: () {
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => Image_slider(
+                      contributorName: "Mayank Chhatraya", widgetName: "Image Slider")));
+        },
+        child: HomeCard(
+          widgetName: "Image Slider",
+          contributorName: "mayank chhatraya",
         ),
       ),
     

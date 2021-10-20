@@ -39,6 +39,7 @@ dependencies:
   flutter_staggered_animations:
   rflutter_alert:
   flip_card:
+  carousel_slider:
 
 dev_dependencies:
   flutter_test:

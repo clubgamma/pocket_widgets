@@ -1,0 +1,12 @@
+ShaderMask(
+      blendMode: BlendMode.srcIn,
+      shaderCallback: (rect) => const LinearGradient(
+        begin: Alignment.topCenter,
+        end: Alignment.bottomCenter,
+        colors: [Color(0xffFF6B17), Color(0xffFF473A)],
+      ).createShader(rect),
+      child: Text(
+        textHere,
+        style: textStyle,
+      ),
+    );

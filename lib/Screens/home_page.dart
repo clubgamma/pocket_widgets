@@ -196,6 +196,19 @@ class _HomePageState extends State<HomePage> {
           contributorName: "mayank chhatraya",
         ),
       ),
+      
+      GestureDetector(
+        onTap: () {
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => TextGradientPage(contributorName: "Sunali", widgetName: "Text Gradient")));
+        },
+        child: HomeCard(
+          widgetName: "Text Gradient",
+          contributorName: "sunalii",
+        ),
+      ),
     
     ];
 
